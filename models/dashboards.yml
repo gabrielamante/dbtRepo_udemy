@@ -1,0 +1,15 @@
+version: 2
+
+exposures:
+  - name: Executive Dashboard
+    type: dashboard
+    maturity: low
+    url: https://app.powerbi.com/view?r=eyJrIjoiNTI4ZmU1OGYtNDkwNS00MmM4LWE1NDktNmRjNDJhNTRkYjMwIiwidCI6IjY1ZWE2NGU0LTczZjktNDg3ZS1hYTAwLTk5YWNiMDI4YTRjZiJ9
+    description: Executive Dashboard about Airbnb listings and hosts
+    
+    depends_on:
+      - ref('dim_listings_with_hosts')
+      - ref('mart_full_moon_reviews')
+    owner:
+      name: Gabriel Amante Santos
+      email: gabriel.amante@gmail.com
