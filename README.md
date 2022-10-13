@@ -1,10 +1,6 @@
-Welcome to your new dbt project!
+# dbt Project Repo
 
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
+Welcome to the repository of my Udemy's dbt course. Here you will find all the files used in the project, such as marts, staging, snapshots, tests, etc.
 
 
 ### Resources:
